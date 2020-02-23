@@ -2,7 +2,7 @@ import 'package:emailapp/MessageList.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(EmailApp());
-//google 
+
 class EmailApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
