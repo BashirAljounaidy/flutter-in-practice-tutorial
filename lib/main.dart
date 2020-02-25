@@ -13,3 +13,11 @@ class EmailApp extends StatelessWidget {
     );
   }
 }
+
+/* in this version we dont need to specify every kind of elements like 
+:::::Message.dart:::::
+Message.fromJson(Map<String, dynamic> json)
+      : subject = json['subject'],
+        body = json['body'];
+SO json will fetch elemets like subject and body them automaticlly
+*/
